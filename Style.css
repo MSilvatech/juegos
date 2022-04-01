@@ -1,0 +1,34 @@
+#ImagenLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Index{
+    text-align: center;
+    margin-top: 0;
+}
+.flex-container{
+    display: flex;
+    background-color: #ed070b;
+    padding: 10px;
+    border: 2px #01050d;
+}
+.flex-container div{
+    margin: 5px;
+    color: #01050d;
+    flex-basis: 100%;
+    text-align: center;
+}
+@media (max-width: 600px){
+    .flex-container{
+        flex-direction: column;}
+}
+.imagenes{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    margin: 10px;  
+}
+#Mensaje{
+    text-align: center;
+}
